@@ -17,7 +17,7 @@ public class LeitorJson {
 		
 		try {
 			String diretorio = System.getProperty("user.dir");
-			JObj = (JSONObject) Jparser.parse(new FileReader(diretorio+"<endereco>"+json_file+".json"));
+			JObj = (JSONObject) Jparser.parse(new FileReader(diretorio+"/src/main/java/core/util/fileJson/"+json_file+".json"));
 		} catch (FileNotFoundException e) {
 			System.out.println("Arquivo não encontrado!");
 			e.printStackTrace();
