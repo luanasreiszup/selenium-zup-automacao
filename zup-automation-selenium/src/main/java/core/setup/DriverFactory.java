@@ -13,10 +13,12 @@ public class DriverFactory {
 		if(driver == null) {
 			switch (Propriedades.browsers) {
 			case FIREFOX:
+				System.setProperty("webdriver.chrome.driver", "src/test/resources/geckodriver.exe");
 				driver = new FirefoxDriver();
 				driver.manage().window().maximize();
 				break;
 			case CHROME:
+				System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
 				driver = new ChromeDriver();
 				driver.manage().window().maximize();
 				break;
