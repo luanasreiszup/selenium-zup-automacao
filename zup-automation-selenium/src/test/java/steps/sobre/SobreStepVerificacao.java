@@ -17,7 +17,6 @@ public class SobreStepVerificacao {
 	@Entao("vejo projetos da Zup Innovation")
 	public void verifico_projetos_zup() {
 		verificar.validarProjetos();
-		System.out.println("Valeu!!!");
 	}
 
 }
