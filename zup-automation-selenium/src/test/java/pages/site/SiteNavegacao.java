@@ -10,5 +10,7 @@ public class SiteNavegacao{
 		SiteData site = new SiteData(json_file, id_massa);
 		getDriver().get(site.getSite());
 	}
+	
+	
 
 }

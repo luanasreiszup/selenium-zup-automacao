@@ -1,6 +1,7 @@
 package steps.site;
 
 import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Quando;
 import pages.site.SiteNavegacao;
 
 public class SiteSteps {
@@ -11,5 +12,6 @@ public class SiteSteps {
 	public void site_zup_innovation() {
 		site.acessarSite("siteData", "zupInovation");
 	}
+
 
 }
