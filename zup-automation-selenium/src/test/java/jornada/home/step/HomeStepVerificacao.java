@@ -1,7 +1,9 @@
-package steps.home;
+package jornada.home.step;
 
+
+import jornada.home.page.HomeVerificar;
 import io.cucumber.java.pt.Entao;
-import pages.home.HomeVerificar;
+
 
 public class HomeStepVerificacao {
 	

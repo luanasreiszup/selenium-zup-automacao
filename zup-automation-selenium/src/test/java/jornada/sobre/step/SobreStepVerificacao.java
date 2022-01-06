@@ -1,8 +1,9 @@
-package steps.sobre;
+package jornada.sobre.step;
 
 import io.cucumber.java.pt.Entao;
 import io.cucumber.java.pt.Quando;
-import pages.sobre.SobreVerificar;
+import jornada.sobre.page.SobreVerificar;
+
 
 public class SobreStepVerificacao {
 	

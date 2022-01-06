@@ -1,8 +1,8 @@
-package steps.site;
+package jornada.site.step;
 
 import io.cucumber.java.pt.Dado;
-import io.cucumber.java.pt.Quando;
-import pages.site.SiteNavegacao;
+import jornada.site.page.SiteNavegacao;
+
 
 public class SiteSteps {
 	

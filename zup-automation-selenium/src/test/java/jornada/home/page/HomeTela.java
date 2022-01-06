@@ -1,4 +1,4 @@
-package pages.home;
+package jornada.home.page;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

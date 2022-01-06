@@ -1,4 +1,4 @@
-package pages.site;
+package jornada.site.page;
 
 import static core.setup.DriverFactory.getDriver;
 
