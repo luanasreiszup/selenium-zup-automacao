@@ -12,7 +12,7 @@ public class HomeStepVerificacao {
 	@Entao("vejo os botoes principais da home")
 	public void verificar_botao_home() {
 		verificar.validarButtons();
-		System.out.println("Valeu!!!");
+		System.out.println("Valeu!!!!");
 	}
 
 }
