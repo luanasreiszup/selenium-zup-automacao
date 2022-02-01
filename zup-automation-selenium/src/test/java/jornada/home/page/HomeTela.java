@@ -16,6 +16,5 @@ public class HomeTela extends PaginaBase{
 	public WebElement btnCarreiras;
 	
 	@FindBy(xpath = "//a[@href='/sobre']")
-	public WebElement btnSobre;
-		
+	public WebElement btnSobre;	
 }
