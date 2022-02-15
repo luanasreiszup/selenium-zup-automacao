@@ -3,7 +3,6 @@ package jornada.sobre.page;
 import static core.setup.DriverFactory.getDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import core.setup.PaginaBase;
-import core.util.massaDados.SiteData;
 
 
 public class SobreVerificar extends PaginaBase{
@@ -20,5 +19,5 @@ public class SobreVerificar extends PaginaBase{
 		wait.until(ExpectedConditions.visibilityOf(tela.btnHorusec)).isDisplayed();
 		wait.until(ExpectedConditions.visibilityOf(tela.btnRitchie)).isDisplayed();
 	}
-	
+
 }
