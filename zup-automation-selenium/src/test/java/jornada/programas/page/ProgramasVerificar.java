@@ -17,8 +17,5 @@ public class ProgramasVerificar extends PaginaBase{
 	public void validarBotaoConhecerProgramas() {
 		wait.until(ExpectedConditions.visibilityOf(tela.btnConhecaProgramas)).isDisplayed();
 	}
-	
-	public void clicarMenuProgramas() {
-		wait.until(ExpectedConditions.visibilityOf(tela.btnProgramas)).click();
-	}
+
 }

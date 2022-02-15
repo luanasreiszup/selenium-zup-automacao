@@ -19,4 +19,5 @@ public class SobreVerificar extends PaginaBase{
 		wait.until(ExpectedConditions.visibilityOf(tela.btnHorusec)).isDisplayed();
 		wait.until(ExpectedConditions.visibilityOf(tela.btnRitchie)).isDisplayed();
 	}
+
 }

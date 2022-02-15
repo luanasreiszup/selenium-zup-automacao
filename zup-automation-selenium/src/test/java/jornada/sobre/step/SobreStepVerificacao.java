@@ -8,6 +8,7 @@ import jornada.sobre.page.SobreVerificar;
 
 public class SobreStepVerificacao {
 	
+
 	SobreAtividade atividade = new SobreAtividade();
 		
 	@Entao("vejo projetos da Zup Innovation")

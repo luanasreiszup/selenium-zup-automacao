@@ -7,16 +7,16 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import core.setup.PaginaBase;
 
 
-public class CarreirasVerificar extends PaginaBase{
+public class CarreirasAcao extends PaginaBase{
 	
-	public CarreirasVerificar() {
+	public CarreirasAcao() {
 		super(getDriver());
 	}
 
 	CarreirasTela tela = new CarreirasTela(getDriver());
 	
-	public void validarEvoluirCarreira() {
-		wait.until(ExpectedConditions.visibilityOf(tela.txtEvoluirCarreira)).isDisplayed();
+	public void clicarMenuCarreiras() {
+		wait.until(ExpectedConditions.visibilityOf(tela.btnCarreiras)).click();
 	}
-
 }
+
