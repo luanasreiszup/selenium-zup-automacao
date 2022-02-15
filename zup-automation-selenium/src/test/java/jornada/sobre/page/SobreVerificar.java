@@ -21,7 +21,4 @@ public class SobreVerificar extends PaginaBase{
 		wait.until(ExpectedConditions.visibilityOf(tela.btnRitchie)).isDisplayed();
 	}
 	
-	public void clicarMenuSobre() {
-		wait.until(ExpectedConditions.visibilityOf(tela.btnSobre)).click();
-	}
 }
